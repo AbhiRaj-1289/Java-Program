@@ -1,0 +1,30 @@
+import java.util.*;
+class Same
+{
+    Same()
+    {
+        String s1;
+        String s2;
+    }
+    void match()
+    {     
+		s1 = agr[0];
+		s2 = arg[1];
+            if(s1.equals(s2))
+            {
+                System.out.print("Same");
+            }
+            else
+            {
+                System.out.print("Diffrent");
+            }
+    }
+}
+class Ch
+{
+    public static void main(String arg[])
+    {
+        Same s = new Same();
+        s.match();
+    }
+}
